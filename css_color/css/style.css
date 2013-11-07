@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Colors from kuler mobile app*/
+body {
+	background-color: #a67232;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #d9d2ad;
+}
+
+h1 {
+	color:rgba(217,210,173,.8);
+	background-color:hsla(22,96%,18%,1);
+}
+
+
+/*So ONLY the li in the anchor div get sorted this way*/
+h2 {
+	color: #a67721;
+	background-color: #733702;
+}
+#container ul li {
+	color: darkcyan;
+	background-color: rgba(204,204,204,1);
+}
+
+#anchors ul li {
+	display: inline;
+	margin-right: 10px;
+	background-color: #a67232;
+}
+
