@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Colors from kuler mobile app*/
+
+a:link {
+	color: #00CC33;
+}
+a:visited{
+	color: #FF00FF;
+}
+a:hover{
+	font-size: 18px;
+	color: #00FF00;
+}
+a:active{
+	color: #FFFF00;
+}
+
+body {
+	background-color: #a67232;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #d9d2ad;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: rgba(217,210,173,.8);
+	background-color: hsla(22,96%,18%,1);
+	font-family: 'PT Serif Caption', serif;
+	padding: 7px;
+	text-shadow: -2px -2px #666666;
+}
+
+
+/*So ONLY the li in the anchor div get sorted this way*/
+h2 {
+	color: #a67721;
+	background-color: #733702;
+	font-weight: lighter;
+	letter-spacing: .25em;
+}
+#container ul {
+	list-style: inside disc;
+	color: darkcyan;
+	background-color: rgba(89,34,2,.2);
+	line-height: 24px;
+}
+
+#anchors ul li {
+	display: inline;
+	margin-right: 10px;
+	background-color: #a67232;
+}
+
+h3 {
+	text-align: center;
+	font-style: italic;
+}
+
+	
