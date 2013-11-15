@@ -30,7 +30,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 20px;
-	font-size: 16px;
+	font-size: 1em;
 
 }
 
@@ -86,9 +86,9 @@ h2 {
 	}
 
 h3 {
-	width: 300px;
+	width: 31%;
 	margin: auto;
-	padding: 10px;
+	padding: 1%;
 	border:groove #8B4800;
 	border-radius: 10px;
 	text-align: center;
