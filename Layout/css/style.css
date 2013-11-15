@@ -26,7 +26,7 @@ body {
 }
 
 #container{
-	width: 960px;
+	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 20px;
@@ -99,23 +99,26 @@ h3 {
 	
 #main {
 	float: left;
-	width: 600px;
-	padding: 10px;
-	margin-top: 10px;
+	width: 62.5%;
+	padding: 1%;
+	margin-top: 1%;
 /*	margin-right: 20px;
-*/	margin-bottom: 10px;
-	margin-left: 20px;
+*/	margin-bottom: 1%;
+	margin-left: 2%;
 }
 #right {
-	padding: 10px;
+	padding: 1%;
 	float: right;
-	width: 279px;
-	margin-top: 10px;
-	margin-right: 20px;
-	margin-bottom: 10px;
+	width: 29%;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-bottom: 1%;
 /*	margin-left: 20px;
 */}
 
 #footer {
+	clear: both;
+}
+#container footer {
 	clear: both;
 }
