@@ -22,19 +22,16 @@ a:active{
 
 body {
 	color: #d9d2ad;
-	background-color:transparent;
-	background-repeat: repeat;
-/*	background-position: left top;
-*/	background-image: url(http://www.dinpattern.com/2011/11/14/subtle-wood-panels);
+	background-image: url(http://i.imgur.com/NxAw8Rz.gif);
 }
 
 #container{
-	width: 90%;
+	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 20px;
 	font-size: 1em;
-
+	background-color: #996633;
 }
 
 h1 {
@@ -49,20 +46,26 @@ h1 {
 
 
 h2 {
-	margin: 10px 17px;
-	padding: 5px;
 	color: #a67721;
 	background-color: #733702;
 	font-weight: lighter;
-	letter-spacing: .25em;
+	letter-spacing: 0.25em;
+	margin-top: 10px;
+	margin-right: 17px;
+	margin-bottom: 10px;
+	margin-left: 17px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
 }
 
-/*p {
+p {
 	margin: 10px;
 	padding: 15px;
-	width: 900px;
-}
-*/
+/*	width: 900px;
+*/}
+
 
 #container ul {
 /*	width: 900px;
@@ -110,18 +113,34 @@ h3 {
 	margin-left: 2%;
 }
 #right {
+	box-shadow: 7px 7px 7px 10 px #996633;
+	border:medium;
+	border-radius: 10px;
+	background: #733702; /* Old browsers */
+	background: linear-gradient(to bottom, #d9d2ad 0%,#733702 100%); /* W3C */
 	padding: 1%;
 	float: right;
 	width: 29%;
 	margin-top: 1%;
 	margin-right: 2%;
 	margin-bottom: 1%;
-/*	margin-left: 20px;
-*/}
-
-#footer {
-	clear: both;
+	color: #333333;/*	margin-left: 20px;
+*/
 }
+
 #container footer {
 	clear: both;
 }
+.icon {
+	height: auto;
+}
+.icon img {
+	float: none;
+	text-align: left;
+}
+
+.icon h2 {
+	text-align: left;
+	padding-left: 130px;
+	vertical-align: middle;
+	}
